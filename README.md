@@ -28,3 +28,6 @@
 8. Merge the 2nd branch (`git-doc-yourname`) into your 1st branch (`firstname-familyname-module`).
 
 9. Create a pull request from your 1st (`firstname-familyname-module`) branch to main.
+
+
+Credits go to: [Bujdosó Réka](https://github.com/bubumaci/gitws) (@bubumaci)
