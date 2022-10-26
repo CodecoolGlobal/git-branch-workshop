@@ -1,0 +1,1 @@
+'To do a merge (locally), git checkout the branch you want to merge INTO. Then type git merge <branch> where <branch> is the branch you want to merge FROM. Because the history of master and the history of make_function share common ancestors and don\'t have any divergence descendents, we get a "fast-forward" merge.';
