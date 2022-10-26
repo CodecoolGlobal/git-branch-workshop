@@ -1,0 +1,1 @@
+Merging in git is possible with the 'git merge <branch_name>' command.
