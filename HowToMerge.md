@@ -1,0 +1,3 @@
+- Go to the branch you want to merge into (git checkout myBranch)
+- Use merge with the name of the branch you want to merge into yours (git merge branchToMerge)
+- Deal merge conflicts if necessary
