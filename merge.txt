@@ -1,0 +1,2 @@
+You can merge with 'git merge' command.
+You can resbase with 'git rebase' command.
