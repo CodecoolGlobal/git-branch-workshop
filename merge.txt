@@ -1,0 +1,1 @@
+You can merge with the merge with 'git merge' command.
