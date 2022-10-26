@@ -1,21 +1,30 @@
-# gitws
+# Git Branching Workshop
 
-1. Start by creating a new branch with your name and module from main. Example: firstname-familyname-web
+## Let's get your hands dirty
 
-2. commit and push a python file that prints your name
-    
-3. cherry-pick the commit with the alpaca picture from the alpaca-pic branch to the top of your firstname-familyname-web branch and push it
-    
-4. start a new branch called git-doc-yourname from your first commit, create a file on it that explains how to do merge in git. Then commit it and push it to your branch.
-    
-5. commit and push a modification to the file with an explanation for rebasing
-    
-6. take a screenshot of the current git tree visual and push it to the git-doc-yourname branch
+1. Start by creating a new branch in this repo. 
+   * Create the branch on top of `main`.
+   * Name the branch using your name and module (example: `zsofi-limbek-pb`)  
 
-hint: git log --all --decorate --oneline --graph
+2. Create a source code file that prints your name when executed. Commit it and push it.
     
-7. rebase the explanations on top of your original firstname-familyname-web branch (OPTIONAL extra: and squash the two explanation commits together)
+3. Cherry-pick the commit with the alpaca picture from branch `alpaca-pic` to the top of your `firstname-familyname-web` 
+ branch and push it.
+    
+4. Create a new branch according to the following specifications: 
+   * Create the branch from your first commit
+   * The branch should be named according to this pattern: `git-doc-yourname`
+   * Create a file on this branch that explains how to do merge in git. 
+   * Then commit the file and push it.
+    
+5. Modify the file by adding an explanation for rebasing. Commit this change and push it.
+    
+6. Take a screenshot of the current git tree visual and push it to the `git-doc-yourname` branch.
+   * Hint: `git log --all --decorate --oneline --graph`
+    
+7. Take the commit in the previous point and rebase it on top of your original `firstname-familyname-module` branch 
+ (OPTIONAL extra: and squash the two explanation commits together).
 
-8. merge git-doc-yourname into your firstname-familyname-web branch
+8. Merge the 2nd branch (`git-doc-yourname`) into your 1st branch (`firstname-familyname-module`).
 
-9. Create a pull request from your firstname-familyname-web branch to main.
+9. Create a pull request from your 1st (`firstname-familyname-module`) branch to main.
