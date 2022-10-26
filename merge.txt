@@ -1,1 +1,3 @@
 Merging in git is possible with the 'git merge <branch_name>' command.
+
+Similarly, rebasing is possiblie with 'git rebase <branch_name>'.
